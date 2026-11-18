@@ -42,7 +42,7 @@ PVP Chronicle Recorder 是 PVP Chronicle 的可選本地錄屏伴侶：進入支
 8. 點選“安裝官方 Flyleaf 播放執行庫”，等待下載、校驗和解壓完成。
 9. 保持 OBS 開啟，然後進入一場受支援的 PvP 戰局進行測試。
 
-OBS 場景、裁剪、遊戲獨佔音訊和故障排查的完整步驟見：[OBS 使用教程](./OBS使用教程.zh-TW.md)。
+OBS 場景、裁剪、遊戲獨佔音訊和故障排查的完整步驟見：[OBS 使用教程](./OBSSetupGuide.zh-TW.md)。
 
 ## 配置說明
 

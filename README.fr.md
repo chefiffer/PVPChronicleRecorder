@@ -28,7 +28,7 @@ PVP Chronicle Recorder est le compagnon local facultatif de PVP Chronicle : il c
 5. Saisir `/pvprec`, renseigner `ws://127.0.0.1:4455` et le mot de passe, enregistrer et tester.
 6. Installer le runtime officiel Flyleaf, garder OBS ouvert et tester un match pris en charge.
 
-Voir le [guide OBS](./OBS使用教程.fr.md) pour les scènes, le recadrage, l’audio et le dépannage.
+Voir le [guide OBS](./OBSSetupGuide.fr.md) pour les scènes, le recadrage, l’audio et le dépannage.
 
 ## Réglages
 

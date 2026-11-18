@@ -40,7 +40,7 @@ PVP Chronicle Recorder는 PVP Chronicle용 선택형 로컬 녹화 플러그인�
 8. **공식 Flyleaf 재생 런타임 설치**를 누르고 다운로드, 검증, 압축 해제를 기다립니다.
 9. OBS를 켠 상태로 지원되는 PvP 경기에 입장하여 테스트합니다.
 
-OBS 장면, 자르기, 게임 소리만 녹음하기 및 문제 해결은 [OBS 설정 안내서](./OBS使用教程.ko.md)를 참고하세요.
+OBS 장면, 자르기, 게임 소리만 녹음하기 및 문제 해결은 [OBS 설정 안내서](./OBSSetupGuide.ko.md)를 참고하세요.
 
 ## 설정
 

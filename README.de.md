@@ -35,7 +35,7 @@ PVP Chronicle Recorder ist eine optionale lokale Aufnahme-Erweiterung für PVP C
 8. Die offizielle Flyleaf-Wiedergabelaufzeit installieren und Download, Prüfung und Entpacken abwarten.
 9. OBS geöffnet lassen und ein unterstütztes PvP-Match testen.
 
-Einzelheiten zu Szenen, Zuschnitt, reinem Spielton und Fehlerbehebung stehen in der [OBS-Anleitung](./OBS使用教程.de.md).
+Einzelheiten zu Szenen, Zuschnitt, reinem Spielton und Fehlerbehebung stehen in der [OBS-Anleitung](./OBSSetupGuide.de.md).
 
 ## Einstellungen
 

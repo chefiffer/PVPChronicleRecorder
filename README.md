@@ -40,7 +40,7 @@ PVP Chronicle Recorder is an optional local recording companion for PVP Chronicl
 8. Select **Install official Flyleaf playback runtime** and wait for download, verification, and extraction to finish.
 9. Keep OBS running and enter a supported PvP match to test the setup.
 
-For OBS scenes, cropping, game-only audio, and troubleshooting, see the [OBS setup guide](./OBS使用教程.en.md).
+For OBS scenes, cropping, game-only audio, and troubleshooting, see the [OBS setup guide](./OBSSetupGuide.en.md).
 
 ## Settings
 
