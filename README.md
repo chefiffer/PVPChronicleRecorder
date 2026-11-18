@@ -1,6 +1,6 @@
 # PVP Chronicle Recorder
 
-[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
+[English](README.md) | [简体中文](docs/translations/README.zh-CN.md) | [繁體中文](docs/translations/README.zh-TW.md) | [日本語](docs/translations/README.ja.md) | [한국어](docs/translations/README.ko.md) | [Deutsch](docs/translations/README.de.md) | [Français](docs/translations/README.fr.md)
 
 PVP Chronicle Recorder is an optional local recording companion for PVP Chronicle. It automatically records supported PvP matches through OBS, links the local video to the match timeline, and lets you review the video, map, and combat events together.
 
@@ -40,7 +40,7 @@ PVP Chronicle Recorder is an optional local recording companion for PVP Chronicl
 8. Select **Install official Flyleaf playback runtime** and wait for download, verification, and extraction to finish.
 9. Keep OBS running and enter a supported PvP match to test the setup.
 
-For OBS scenes, cropping, game-only audio, and troubleshooting, see the [OBS setup guide](./OBSSetupGuide.en.md).
+For OBS scenes, cropping, game-only audio, and troubleshooting, see the [OBS setup guide](docs/obs/OBSSetupGuide.en.md).
 
 ## Settings
 

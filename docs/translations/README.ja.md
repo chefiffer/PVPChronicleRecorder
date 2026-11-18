@@ -1,6 +1,6 @@
 # PVP Chronicle Recorder
 
-[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
+[English](../../README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
 
 PVP Chronicle Recorder は、PVP Chronicle 用の任意導入のローカル録画プラグインです。対応 PvP コンテンツに入ると OBS で自動録画し、録画ファイルを試合タイムラインに関連付け、動画・マップ・戦闘イベントを同じリプレイ画面で確認できます。
 
@@ -40,7 +40,7 @@ PVP Chronicle Recorder は、PVP Chronicle 用の任意導入のローカル録�
 8. 「公式 Flyleaf 再生ランタイムをインストール」を押し、ダウンロード、検証、展開の完了を待ちます。
 9. OBS を起動したまま対応 PvP コンテンツへ入り、動作を確認します。
 
-OBS シーン、クロップ、ゲーム音声のみの録音、トラブル対処は [OBS 設定ガイド](./OBSSetupGuide.ja.md) を参照してください。
+OBS シーン、クロップ、ゲーム音声のみの録音、トラブル対処は [OBS 設定ガイド](../obs/OBSSetupGuide.ja.md) を参照してください。
 
 ## 設定
 
@@ -102,4 +102,4 @@ flowchart LR
 - [FFmpeg](https://ffmpeg.org/)：Flyleaf 公式ランタイムから提供。
 - [SharpCompress](https://github.com/adamhathcock/sharpcompress)：検証済みランタイム書庫の展開。
 
-ライセンスと出典は [THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md) を参照してください。
+ライセンスと出典は [THIRD-PARTY-NOTICES.md](../../THIRD-PARTY-NOTICES.md) を参照してください。

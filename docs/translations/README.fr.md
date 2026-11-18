@@ -1,6 +1,6 @@
 # PVP Chronicle Recorder
 
-[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
+[English](../../README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
 
 PVP Chronicle Recorder est le compagnon local facultatif de PVP Chronicle : il commande OBS dans les matchs JcJ pris en charge, associe la vidéo locale à la chronologie et affiche ensemble vidéo, carte et événements.
 
@@ -28,7 +28,7 @@ PVP Chronicle Recorder est le compagnon local facultatif de PVP Chronicle : il c
 5. Saisir `/pvprec`, renseigner `ws://127.0.0.1:4455` et le mot de passe, enregistrer et tester.
 6. Installer le runtime officiel Flyleaf, garder OBS ouvert et tester un match pris en charge.
 
-Voir le [guide OBS](./OBSSetupGuide.fr.md) pour les scènes, le recadrage, l’audio et le dépannage.
+Voir le [guide OBS](../obs/OBSSetupGuide.fr.md) pour les scènes, le recadrage, l’audio et le dépannage.
 
 ## Réglages
 
@@ -58,4 +58,4 @@ Seuls l’identifiant, le temps et l’état de lecture passent par IPC ; aucun 
 
 Les vidéos OBS, l’index d’association, le mot de passe chiffré et FFmpeg restent locaux. Un plantage peut empêcher l’arrêt et l’association automatiques ; les segments avant/après plantage ne sont pas fusionnés. Déplacer ou supprimer une vidéo rend son replay indisponible sans supprimer l’historique. Recorder et PVP Chronicle peuvent être désactivés indépendamment, mais l’enregistrement automatique exige PVP Chronicle.
 
-Composants : [Flyleaf](https://github.com/SuRGeoNix/Flyleaf), [FFmpeg](https://ffmpeg.org/) et [SharpCompress](https://github.com/adamhathcock/sharpcompress). Licences : [THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md).
+Composants : [Flyleaf](https://github.com/SuRGeoNix/Flyleaf), [FFmpeg](https://ffmpeg.org/) et [SharpCompress](https://github.com/adamhathcock/sharpcompress). Licences : [THIRD-PARTY-NOTICES.md](../../THIRD-PARTY-NOTICES.md).

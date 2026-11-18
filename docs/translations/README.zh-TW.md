@@ -1,6 +1,6 @@
 # PVP Chronicle Recorder
 
-[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
+[English](../../README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
 
 PVP Chronicle Recorder 是 PVP Chronicle 的可選本地錄屏伴侶：進入支援的 PvP 戰局後透過 OBS 自動錄製，並把本機錄影與戰局時間軸關聯，在覆盤頁面中同步檢視影片、地圖和戰鬥事件。
 
@@ -42,7 +42,7 @@ PVP Chronicle Recorder 是 PVP Chronicle 的可選本地錄屏伴侶：進入支
 8. 點選“安裝官方 Flyleaf 播放執行庫”，等待下載、校驗和解壓完成。
 9. 保持 OBS 開啟，然後進入一場受支援的 PvP 戰局進行測試。
 
-OBS 場景、裁剪、遊戲獨佔音訊和故障排查的完整步驟見：[OBS 使用教程](./OBSSetupGuide.zh-TW.md)。
+OBS 場景、裁剪、遊戲獨佔音訊和故障排查的完整步驟見：[OBS 使用教程](../obs/OBSSetupGuide.zh-TW.md)。
 
 ## 配置說明
 
@@ -104,4 +104,4 @@ flowchart LR
 - [FFmpeg](https://ffmpeg.org/)：由 Flyleaf 官方執行庫提供。
 - [SharpCompress](https://github.com/adamhathcock/sharpcompress)：解壓經過校驗的執行庫壓縮包。
 
-具體許可和來源見 [THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md)。
+具體許可和來源見 [THIRD-PARTY-NOTICES.md](../../THIRD-PARTY-NOTICES.md)。
