@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0-windows7.0": {
+      "DalamudPackager": {
+        "type": "Direct",
+        "requested": "[15.0.0, )",
+        "resolved": "15.0.0",
+        "contentHash": "411vwC8/X8Z/sQ2TI6v3SvOn66xFPeOjFn3Zn+h0d3Ox2t1kFm66AhDvmx/qcMwVrR+Hidxj0dadpQ2dgyXMBQ=="
+      },
+      "DotNet.ReproducibleBuilds": {
+        "type": "Direct",
+        "requested": "[1.2.39, )",
+        "resolved": "1.2.39",
+        "contentHash": "fcFN01tDTIQqDuTwr1jUQK/geofiwjG5DycJQOnC72i1SsLAk1ELe+apBOuZ11UMQG8YKFZG1FgvjZPbqHyatg=="
+      },
+      "FlyleafLib": {
+        "type": "Direct",
+        "requested": "[3.11.11, )",
+        "resolved": "3.11.11",
+        "contentHash": "otJC0ULuBGTgqIS8gDyrmyJHk3VgEm8KQKQlmThV+zcxeuHVD0wtIDhmTQ8IayKuIBmBOhHaua6eWb62phfIlw==",
+        "dependencies": {
+          "Flyleaf.FFmpeg.Bindings": "9.0.2",
+          "Vortice.D3DCompiler": "3.8.3",
+          "Vortice.Direct3D11": "3.8.3",
+          "Vortice.DirectComposition": "3.8.3",
+          "Vortice.Mathematics": "2.1.1",
+          "Vortice.MediaFoundation": "3.8.3",
+          "Vortice.XAudio2": "3.8.3"
+        }
+      },
+      "SharpCompress": {
+        "type": "Direct",
+        "requested": "[0.50.9, )",
+        "resolved": "0.50.9",
+        "contentHash": "Jm32AbptP318P+G4Bew0c72X7R1MXqImenXD9kfkygysZJCTfXfp01CLKuFhGvJGIxSw/dutEAaAlwNOZ8MBlw=="
+      },
+      "Flyleaf.FFmpeg.Bindings": {
+        "type": "Transitive",
+        "resolved": "9.0.2",
+        "contentHash": "LnmkkElS4sQUlN35tW1CghQoh0r92Suz1cVuPzqcdNi0fl8BcTiX24770ckaipH3HL+I+Nd5yhzQlfwQ7MpKSg=="
+      },
+      "SharpGen.Runtime": {
+        "type": "Transitive",
+        "resolved": "2.4.2-beta",
+        "contentHash": "niTtWAUov1F7wZGAlVeEvW+Tnqvg5yTmhI7rxmYu2Utoyu2TbC9tWWpUpMs0PQg5lu5svoYpCAztNjxCqMFP/w=="
+      },
+      "SharpGen.Runtime.COM": {
+        "type": "Transitive",
+        "resolved": "2.4.2-beta",
+        "contentHash": "9lxDFMiepqo3lJQzMSjECCIONeCc2f3Drokgj6HtrTLZcJSftNgcLbD6/iXYj2iphkwgrZb1oLsDOZxoFZkawQ==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta"
+        }
+      },
+      "Vortice.D3DCompiler": {
+        "type": "Transitive",
+        "resolved": "3.8.3",
+        "contentHash": "OmGPMhf/xnD8/HZ0ms1x7xSFyz+6e6mveCqhu0EioMFQYKJM35/ZVLLo+FIB5KpsrlqhM/jvYHYPAxu45YONGg==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DirectX": "3.8.3"
+        }
+      },
+      "Vortice.Direct2D1": {
+        "type": "Transitive",
+        "resolved": "3.8.3",
+        "contentHash": "SDHEmNUT3A4P8yj+g7q3AnRZ9fvqOOe/EoWjsgkHlQ3C9Tkc51rTeZXC9bQPySli+/lFTui8vMs9tpWZqf+AwQ==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DXGI": "3.8.3"
+        }
+      },
+      "Vortice.Direct3D11": {
+        "type": "Transitive",
+        "resolved": "3.8.3",
+        "contentHash": "JgFUswu2mgrSwcd0KRF2AnfeE5VbMEgcicmxPD1g2yXyomPIHbnX3wldBNHPOzzD0URC1WJ/pO1ymfi3imZwvg==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DXGI": "3.8.3"
+        }
+      },
+      "Vortice.DirectComposition": {
+        "type": "Transitive",
+        "resolved": "3.8.3",
+        "contentHash": "2/QD9K9UC7z/2FgK8/gVyySfMppwOz006+9eMtrcEbsTwYNxBxJGCeY09oM8Mr7CLOVY581sg89lIES+2URd6A==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DXGI": "3.8.3",
+          "Vortice.Direct2D1": "3.8.3",
+          "Vortice.DirectX": "3.8.3"
+        }
+      },
+      "Vortice.DirectX": {
+        "type": "Transitive",
+        "resolved": "3.8.3",
+        "contentHash": "nKwSavv0w5rDF7prSefqAVPDcTyqrfZxKFMVfttiXPfm62VdA/1d+b3PhCZpW4xO7jXczXDwjQdWgD1zGsvM8w==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "SharpGen.Runtime.COM": "2.4.2-beta",
+          "Vortice.Mathematics": "2.1.0"
+        }
+      },
+      "Vortice.DXGI": {
+        "type": "Transitive",
+        "resolved": "3.8.3",
+        "contentHash": "MbAUnTeQ6WD99ctAdrj5CQO2I7oaax0Kt2eVdWSUj0bYP9Ed0726+s7dIHe4+tqhpmINW/dcPt0mNtc72o+E0w==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DirectX": "3.8.3"
+        }
+      },
+      "Vortice.Mathematics": {
+        "type": "Transitive",
+        "resolved": "2.1.1",
+        "contentHash": "5hQRSeg4MnVwxVAPuvW49NbCmpJL1CD9q+OLoIPHzOlduQXQrqhdQ8L+RhFdgg1ifIUVjWyhNF2LhyyvAtivkQ=="
+      },
+      "Vortice.MediaFoundation": {
+        "type": "Transitive",
+        "resolved": "3.8.3",
+        "contentHash": "TeAN7tKrf1XfUxXe1+fukRvPCTW53DQUxuPR0pZLivuhmLlFCgpvb+EQWfCKENnEwbJnL+OdrHxWn2qUZiYMuA==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DirectX": "3.8.3"
+        }
+      },
+      "Vortice.XAudio2": {
+        "type": "Transitive",
+        "resolved": "3.8.3",
+        "contentHash": "1XSd7ZkMe8KIS36HYq1rdsru2n9PyaPwNjnREH8pNnlVOSaeLpSPMCAv4hX5P8VqgfpvKhPhCiM5kQ1OrKqxpg==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DirectX": "3.8.3"
+        }
+      }
+    }
+  }
+}

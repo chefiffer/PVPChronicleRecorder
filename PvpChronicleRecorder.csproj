@@ -1,0 +1,19 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <Author>chefiffer</Author>
+    <Name>PVP Chronicle Recorder</Name>
+    <Punchline>Records supported PvP matches and links local video to Chronicle replay.</Punchline>
+    <Description>Optional local recording companion for PVP Chronicle. OBS recordings stay on this computer.</Description>
+    <Tags>pvp;recording;obs;timeline;local</Tags>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FlyleafLib" Version="3.11.11" />
+    <PackageReference Include="SharpCompress" Version="0.50.9" />
+    <Content Include="LICENSE" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="licenses\*.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="THIRD-PARTY-NOTICES.md" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
